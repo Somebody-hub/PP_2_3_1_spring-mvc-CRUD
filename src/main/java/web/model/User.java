@@ -21,7 +21,11 @@ public class User {
     @Column
     private String Email;
 
+    @Column
+    private int deleted;
+
     public User() {
+        this.deleted = 0;
     }
 
     public User(Long id, String Name, int Age, String Email) {
@@ -29,6 +33,7 @@ public class User {
         this.Name = Name;
         this.Age = Age;
         this.Email = Email;
+        this.deleted = 0;
     }
 
     public void setId(Long id) {
@@ -63,11 +68,20 @@ public class User {
         return Email;
     }
 
+    public void setDeleted(int deleted){
+        this.deleted = deleted;
+    }
+
+    public int getDeleted() {
+        return this.deleted;
+    }
+
     @Override
     public String toString() {
         return "id = " + this.id
                 + "\n" + "Name = " + this.Name
                 + "\n" + "Age = " + this.Age
-                + "\n" + "Email " + this.Email;
+                + "\n" + "Email " + this.Email
+                + "\n" + "deleted" + this.deleted;
     }
 }

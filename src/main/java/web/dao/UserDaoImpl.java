@@ -40,7 +40,8 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public void deleteUserById(Long id) {
-        Users.remove(getUserById(id));
+        //Users.remove(getUserById(id));
+        getUserById(id).setDeleted(1);
     }
 
     @Override
@@ -58,6 +59,6 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public List<User> getAllUsers() {
-        return this.Users;
+        return this.Users.stream().filter(user -> user.getDeleted() == 0).toList();
     }
 }
