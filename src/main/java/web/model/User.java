@@ -27,8 +27,7 @@ public class User {
         this.deleted = 0;
     }
 
-    public User(Long id, String Name, int Age, String Email) {
-        this.id = id;
+    public User(String Name, int Age, String Email) {
         this.Name = Name;
         this.Age = Age;
         this.Email = Email;

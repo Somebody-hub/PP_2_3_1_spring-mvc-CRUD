@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1b4d681-ecb4-444c-8b23-bd05a67a156e" name="Changes" comment="Cleane files">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="a1b4d681-ecb4-444c-8b23-bd05a67a156e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/config/DataBaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/DataBaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dataBase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dataBase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceIml.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725311100530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cleane files">
+      <option name="closed" value="true" />
+      <created>1725398660639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725398660639</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
