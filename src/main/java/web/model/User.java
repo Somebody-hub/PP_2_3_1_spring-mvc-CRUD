@@ -1,12 +1,11 @@
 package web.model;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+
+@Entity
+@Table(name = "Users")
 public class User {
-
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -68,7 +67,7 @@ public class User {
         return Email;
     }
 
-    public void setDeleted(int deleted){
+    public void setDeleted(int deleted) {
         this.deleted = deleted;
     }
 
