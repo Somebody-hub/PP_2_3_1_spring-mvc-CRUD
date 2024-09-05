@@ -11,27 +11,23 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column
     private String Name;
 
-    @Column
     private int Age;
 
-    @Column
     private String Email;
 
-    @Column
-    private int deleted;
+    private boolean deleted;
 
     public User() {
-        this.deleted = 0;
+        this.deleted = false;
     }
 
     public User(String Name, int Age, String Email) {
         this.Name = Name;
         this.Age = Age;
         this.Email = Email;
-        this.deleted = 0;
+        this.deleted = false;
     }
 
     public void setId(Long id) {
@@ -66,11 +62,11 @@ public class User {
         return Email;
     }
 
-    public void setDeleted(int deleted) {
+    public void setDeleted(boolean deleted) {
         this.deleted = deleted;
     }
 
-    public int getDeleted() {
+    public boolean getDeleted() {
         return this.deleted;
     }
 

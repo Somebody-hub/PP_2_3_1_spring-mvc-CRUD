@@ -39,7 +39,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public void deleteUserById(Long id) {
-        getUserById(id).setDeleted(1);
+        getUserById(id).setDeleted(true);
     }
 
 
