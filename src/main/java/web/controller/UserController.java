@@ -8,7 +8,6 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import web.model.User;
 import web.service.UserService;
-import web.service.UserServiceIml;
 
 
 @Controller
@@ -21,7 +20,7 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping("/users")
+    @GetMapping("/")
     public String printUsers(ModelMap model) {
         model.addAttribute("usersList", userService.getAllUsers());
         return "allUsers";
